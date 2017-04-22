@@ -1,0 +1,12 @@
+default:
+  description: 'Default (production) build'
+  tasks:
+    - dev
+dev:
+  description: 'full build of all tasks'
+  tasks:
+serve:
+  description: 'start a local server on port 2017 and watch for file changes'
+  tasks:
+    - connect
+    - watch
