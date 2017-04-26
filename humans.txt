@@ -1,0 +1,14 @@
+/* TEAM */
+
+Developer: Andy Lin
+Contact: andydlin@gmail.com
+
+Developer: Derek Dennison
+Contact: dbdennison@gmail.com
+
+/* SITE */ 
+
+Launched: 2017/04/25
+Language: English
+Doctype: HTML5
+Software: VS Code, Notepad++, Atom, GitHub, Node, Jekyll
