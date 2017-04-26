@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<title>InPrint at UC Davis</title>
-	<link type="text/css" rel="stylesheet" href="/css/styles.css"/>
-	<meta name="description" content="InPrint at UC Davis.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-	<div class="index-bg"></div>
-	<main class="index-panel">
-		<section class="index-panel_container">
-			<h1>InPrint</h1>
-			<h3>Magazine</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sagittis nullam nam, lobortis cras montes aliquam nisl senectus nunc ultrices suscipit purus, laoreet penatibus facilisi velit himenaeos gravida posuere habitant semper. Rhoncus nisi lacus iaculis scelerisque id, aliquet convallis pretium tortor sed, semper tempor mollis phasellus.</p>
-			<a class="button" href="#0">Pre-Order</a>
-			<p>Want to be a part of InPrint? <a href="#0">Leave us a message!</a></p>
-		</section>
-	</main>
-<script src="//localhost:35728/livereload.js"></script>
-</body>
-
+	<head>
+		<title>InPrint at UC Davis</title>
+		<link type="text/css" rel="stylesheet" href="css/styles.css"/>
+		<meta name="description" content="InPrint at UC Davis.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,600,700" rel="stylesheet">
+		<script type="text/javascript">
+			window.addEventListener('load', function() {
+				document.querySelector('body').classList.toggle('nloaded');
+			});
+		</script>
+	</head>
+	<body>
+		<main class="index-panel">
+			<section class="index-panel_container">
+				<h1 class="hidden">InPrint Home Page</h1>
+				<img src="img/inprint-logo.png" id="logo" height="75.5" width="150">
+				<p class="justify mission">InPrint Magazine is a student-run publication that caters towards design students and students interested in design. We seek to build a design community and foster relationships within that community through casual conversation. We hope to encourage one another to keep growing and learning, and to inspire each other to pursue our passions.</p>
+				<a class="button" href="https://tinyurl.com/kw5bcla">Pre-Order</a>
+				<p>Want to be a part of InPrint?</p>
+				<p><a href="mailto:inprintatdavis@gmail.com">Leave us a message!</a></p>
+				<img class="visible-mobile small-mockup" src="img/mockup-small.jpg" height="334" width="500">
+			</section>
+			<div class="index-bg hidden-mobile"></div>
+		</main>
+		<script src="js/scripts.js" type="text/javascript"></script>
+	</body>
 </html>
