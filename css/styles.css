@@ -123,11 +123,16 @@ a[href]:not([class]):active {
 }
 
 .index-bg {
-	height: 100%;
-	background: url('../img/home-bg.jpg') no-repeat center center fixed;
+	height: 100%;\
 	background-size: cover;
 	flex-grow: 1;
 	overflow: hidden;
+}
+
+@media (min-width: 551px) {
+	.index-bg {
+		background: url('../img/home-bg.jpg') no-repeat center center fixed;
+	}
 }
 
 .index-panel {
